@@ -539,7 +539,7 @@ Public Class MainForm
             checkForUpdate()
             checkDatabaseStatus()
             ScrapeServiceController.ServiceName = "ScraperService"
-            checkServiceStatus()
+            'checkServiceStatus()
         Catch ex As Exception
             MsgBox("This Software Requires SQL and .Net 4.5 or above")
             Application.Exit()
